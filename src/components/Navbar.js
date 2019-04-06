@@ -3,16 +3,16 @@ import React, { Component } from 'react'
 export default class Navbar extends Component {
   render() {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
         <div className="container">
-            <a className="navbar-brand" href="Dashboard.html">
-                Project Task Tool
+          <a className="navbar-brand" href="/">
+            Project Task Tool
             </a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
-                <span className="navbar-toggler-icon" />
-            </button>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
+            <span className="navbar-toggler-icon" />
+          </button>
         </div>
-    </nav>
+      </nav>
     )
   }
 }

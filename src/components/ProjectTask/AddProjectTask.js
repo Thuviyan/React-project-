@@ -10,7 +10,7 @@ class AddProjectTask extends Component {
         super()
         this.state = {
             summary: "",
-            acceptenceCriteria: "",
+            acceptanceCriteria: "",
             status: "",
             errors: {}
         }
@@ -32,7 +32,7 @@ class AddProjectTask extends Component {
         e.preventDefault();
         const newProjectTask = {
             summary: this.state.summary,
-            acceptenceCriteria: this.state.acceptenceCriteria,
+            acceptanceCriteria: this.state.acceptanceCriteria,
             status: this.state.status
         }
         // console.log(newProjectTask);
@@ -64,7 +64,7 @@ class AddProjectTask extends Component {
                                 </div>
                                 <div className="form-group">
                                     <textarea className="form-control form-control-lg" placeholder="Acceptance Criteria"
-                                        name="acceptenceCriteria" value={this.state.acceptenceCriteria} onChange={this.onChange}></textarea>
+                                        name="acceptanceCriteria" value={this.state.acceptanceCriteria} onChange={this.onChange}></textarea>
                                 </div>
                                 <div className="form-group">
                                     <select className="form-control form-control-lg" name="status" value={this.state.status} onChange={this.onChange}>
